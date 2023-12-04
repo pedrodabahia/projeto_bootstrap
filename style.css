@@ -1,0 +1,32 @@
+section.bg-top{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: -1%;
+    background-image: url('./img/bg-top.webp');
+    background-size: cover;
+}
+section.bg-top .escurecer{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(100,100,100,1) ;
+    opacity: 0.2;
+    position: relative;
+    z-index: 1;
+}
+section.bg-top .fix-zindex{
+    position: relative;
+    z-index: 2;
+    top:-100%;
+    display: flex;
+    color: white;
+}
+
+section.bg-top .fix-zindex .row .texto-bg .col-md-6{
+    width: 40%;
+    float: left;
+    margin: 5%;
+}
+section.bg-top .fix-zindex .row .texto-bg .col-md-6 .form-texto{
+    color:  !important white;
+}
