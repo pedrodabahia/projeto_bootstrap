@@ -20,13 +20,15 @@ section.bg-top .fix-zindex{
     top:-100%;
     display: flex;
     color: white;
+    font-weight: lighter;
 }
 
 section.bg-top .fix-zindex .row .texto-bg .col-md-6{
     width: 40%;
     float: left;
     margin: 5%;
+    font-size: 1vw;
 }
-section.bg-top .fix-zindex .row .texto-bg .col-md-6 .form-texto{
-    color:  !important white;
+section.bg-top .fix-zindex .row .texto-bg .col-md-6 h2{
+    font-weight: lighter;
 }
