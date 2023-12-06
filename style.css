@@ -31,4 +31,77 @@ section.bg-top .fix-zindex .row .texto-bg .col-md-6{
 }
 section.bg-top .fix-zindex .row .texto-bg .col-md-6 h2{
     font-weight: lighter;
+
+}
+section.sobre{padding: 2vw 0;
+    background: rgb(225,225,225);    
+    }
+
+section.sobre .container .row .col-sm-10 .custom-title h2{
+    color: rgb(100,100,100);
+}
+
+section.sobre .container .row .col-sm-10 .custom-title div{
+    border: none;
+    width:40px;
+    height: 5px;
+    background:#0d6efd;;
+}
+
+section.diferenciais{
+    padding: 3vw 0;
+}
+section.diferenciais h2{
+    padding: 1vw 0;
+    border-bottom:2px dotted grey;
+}
+section.diferenciais .col-md-3{
+    padding: 0vw;
+    margin-top: 2vw;
+}
+
+section.diferenciais .container{
+    width: 70%;
+}
+
+section.diferenciais .container .row  .custom-title div{
+    border: none;
+    width:40px;
+    height: 5px;
+    background:#0d6efd;;
+}
+section.diferenciais .container .row  .custom-title h2{
+    border: none;
+    padding: 0;
+    color: rgb(100,100,100);
+}
+section.diferenciais .container .row  .custom-title {
+    border: none;
+    width:70vw;
+
+}
+section.convite .container .row .col-md-5 form input[type=email]{
+    width: 80%;
+    margin:1vw 0vw;
+    height: 40px;
+    border-radius: 0;
+}
+
+section.convite{
+    padding: 0.5vw;
+}
+section.convite .container .row .text{
+    padding-top: 1vw;
+}
+section.convite .container .row .col-md-5 form button{
+    width: 20%;
+    font-size: 13px;
+    height: 40px;
+    padding:0 10px;
+    border: none;
+    border-radius: 0;
+}
+section.formulario{
+    padding: 2vw;
+    background: rgb(225,225,225);
 }
