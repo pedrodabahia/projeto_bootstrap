@@ -134,13 +134,30 @@ section.rodapé{
 }
 
 @media  screen and (max-width:770px) {
+    section.bg-top{
+        margin-top: -6%;
+    }
+    section.diferenciais .container{
+        width: 90%;
+    }
+    section.diferenciais{
+        padding: 2%;
+    }
+    section.sobre .container{
+        width: 90%;
+        padding: 2%;
+    }
     section.bg-top .fix-zindex .row .texto-bg .col-md-6{
-        width: 100%;
+        width: 80%;
         float: none;
         margin: 10%;
-        font-size: 1.2vw;
+        font-size: 2vw;
     }   
     section.convite .container .row .col-md-5 form input[type=submit]{
         font-size: 3vw;
-        
+    }
+    section.rodapé{
+        margin-top: -6%;
+        padding-top: 0;
+    }
 }
