@@ -147,6 +147,10 @@ section.rodapé{
         width: 90%;
         padding: 4%;
     }
+
+    section.formulario{
+        padding:7% 2%;
+    }
     section.bg-top .fix-zindex .row .texto-bg .col-md-6{
         width: 80%;
         float: none;
